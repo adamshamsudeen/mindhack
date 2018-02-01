@@ -1,0 +1,1319 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MindHack</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+  <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	
+	 <link href="https://fonts.googleapis.com/css?family=Timmana" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Nova+Square" rel="stylesheet">  
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- 
+	Default Theme Style 
+	You can change the style.css (default color purple) to one of these styles
+	
+	1. pink.css
+	2. blue.css
+	3. turquoise.css
+	4. orange.css
+	5. lightblue.css
+	6. brown.css
+	7. green.css
+
+	-->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
+	<link rel="stylesheet" id="theme-switch" href="css/style.css">
+	<!-- End demo purposes only -->
+
+
+	<style>
+	.can{
+	position: center;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+	/* For demo purpose only */
+	
+	/* For Demo Purposes Only ( You can delete this anytime :-) */
+	#colour-variations {
+		padding: 10px;
+		-webkit-transition: 0.5s;
+	  	-o-transition: 0.5s;
+	  	transition: 0.5s;
+		width: 140px;
+		position: fixed;
+		left: 0;
+		top: 100px;
+		z-index: 999999;
+		background: #fff;
+		/*border-radius: 4px;*/
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+		-webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+	}
+	#colour-variations.sleep {
+		margin-left: -140px;
+	}
+	#colour-variations h3 {
+		text-align: center;;
+		font-size: 11px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: #777;
+		margin: 0 0 10px 0;
+		padding: 0;;
+	}
+	#colour-variations ul,
+	#colour-variations ul li {
+		padding: 0;
+		margin: 0;
+	}
+	#colour-variations li {
+		list-style: none;
+		display: block;
+		margin-bottom: 5px!important;
+		float: left;
+		width: 100%;
+	}
+	#colour-variations li a {
+		width: 100%;
+		position: relative;
+		display: block;
+		overflow: hidden;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		-ms-border-radius: 4px;
+		border-radius: 4px;
+		-webkit-transition: 0.4s;
+		-o-transition: 0.4s;
+		transition: 0.4s;
+	}
+	#colour-variations li a:hover {
+	  	opacity: .9;
+	}
+	#colour-variations li a > span {
+		width: 33.33%;
+		height: 20px;
+		float: left;
+		display: -moz-inline-stack;
+		display: inline-block;
+		zoom: 1;
+		*display: inline;
+	}
+	
+
+	.option-toggle {
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin-top: 5px;
+		margin-right: -30px;
+		width: 30px;
+		height: 30px;
+		background: #f64662;
+		text-align: center;
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+		color: #fff;
+		cursor: pointer;
+		-webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+	}
+	.option-toggle i {
+		top: 2px;
+		position: relative;
+	}
+	.option-toggle:hover, .option-toggle:focus, .option-toggle:active {
+		color:  #fff;
+		text-decoration: none;
+		outline: none;
+	}
+	</style>
+	<!-- End demo purposes only -->
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<header role="banner" id="fh5co-header">
+			<div class="container">
+				<!-- <div class="row"> -->
+			    <nav class="navbar navbar-default">
+		        <div class="navbar-header">
+		        	<!-- Mobile Toggle Menu Button -->
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		         <a class="navbar-brand" href="index.html">MindHack <!-- Innovations --></a> 
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav navbar-right">
+		            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
+		            <li><a href="#" data-nav-section="work"><span>Work</span></a></li>
+		            <li><a href="#" data-nav-section="testimonials"><span>Testimonials</span></a></li>
+		            <li><a href="#" data-nav-section="services"><span>Services</span></a></li>
+		            <li><a href="#" data-nav-section="about"><span>About</span></a></li>
+		            <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
+		          </ul>
+		        </div>
+			    </nav>
+			  <!-- </div> -->
+		  </div>
+	</header>
+
+	<section id="fh5co-home" data-section="home" style="background-image: url(images/bmg.jpg);" data-stellar-background-ratio="1.7">
+
+		<div class="gradient"></div>
+		<div class="container">
+			
+			<div class="text-wrap">
+
+				<div class="text-inner">
+					<canvas class="can" id="c"></canvas>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+
+
+							<h1 class="to-animate" style="text-align: italic;">
+
+
+
+
+								<span style="font-size: 27px">MindHack</span> 
+								 
+								
+
+
+
+							</h1>
+							<h2 class="to-animate"> </h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slant"></div>
+	</section>
+
+	<section id="fh5co-intro">
+		<div class="container">
+			<div class="row row-bottom-padded-lg">
+				<div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);">
+					<div class="overlay-darker"></div>
+					<div class="overlay"></div>
+					<div class="fh5co-text">
+						<!-- Bookmark Filled icon by Icons8 -->
+<!-- Highway Filled icon by Icons8 -->
+					<i class="fh5co-intro-icon icon-road"></i>
+						<h2>Journey</h2>
+						<p>A journey of a thousand miles begins with a single step.</p>
+						<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#journeymo">Get In Touch</a></p>
+					</div>
+				</div>
+				<div class="fh5co-block to-animate" style="background-image: url(images/img_8.jpg);">
+					<div class="overlay-darker"></div>
+					<div class="overlay"></div>
+					<div class="fh5co-text">
+						<i class="fh5co-intro-icon icon-wrench"></i>
+						<h2>Tech Stack</h2>
+						<p>Just because something doesn’t do what you planned it to do doesn’t mean it’s useless.</p>
+						<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#techStack">Click Me</a></p>
+					</div>
+				</div>
+				<div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg);">
+					<div class="overlay-darker"></div>
+					<div class="overlay"></div>
+					<div class="fh5co-text">
+						<i class="fh5co-intro-icon icon-rocket"></i>
+						<h2>Holy Grail</h2>
+						<p>Awards won by MindHack Team</p>
+						<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#holyGrail">Why Us?</a></p>
+					</div>
+				</div>
+			</div>
+		<!-- 	<div class="row watch-video text-center to-animate">
+				<span>Watch the video</span>
+
+				<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo btn-video"><i class="icon-play2"></i></a>
+			</div> -->
+		</div>
+	</section>
+
+	<section id="fh5co-work" data-section="work">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Work</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3><!-- Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. --></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-sm">
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/fosshack1.png" class="fh5co-project-item image-popup to-animate">
+						<img src="images/fosshack1.png" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>FOSSHACK</h2>
+						<span>Hackathon</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/buzz.png" class="fh5co-project-item image-popup to-animate">
+						<img src="images/buzz.png" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Buz Pe</h2>
+						<span>cashless tickets</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/wiki.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/work_3.jpg" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Wiki Scrape</h2>
+						<span>Scraping-Wiki</span>
+						</div>
+					</a>
+				</div>
+				<!-- <div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/work_4.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/work_4.jpg" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Travel Mate</h2>
+						<span>Transport assistant</span>
+						</div>
+					</a>
+				</div> -->
+				
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/vision.png" class="fh5co-project-item image-popup to-animate">
+						<img src="images/vision.png" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Vision.AI</h2>
+						<span>Photography</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/work_6.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/clubbedin.png" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Clubdin</h2>
+						<span>Club Management System</span>
+						</div>
+					</a>
+				</div>
+				
+				<div class="clearfix visible-sm-block"></div>
+
+				<!-- <div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/work_7.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/work_7.jpg" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Mom Dad Me</h2>
+						<span>AI</span>
+						</div>
+					</a>
+				</div> -->
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/goodlook.png" class="fh5co-project-item image-popup to-animate">
+						<img src="images/goodlook.png" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>GoodLook</h2>
+						<span>Sketch</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="clearfix visible-sm-block"></div>
+
+				<!-- <div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/work_1.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/work_1.jpg" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Project 2</h2>
+						<span>Illustration</span>
+						</div>
+					</a>
+				</div> -->
+			</div>
+			<!-- <div class="row">
+				<div class="col-md-12 text-center to-animate">
+					<p>* Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a></p>
+				</div>
+			</div> -->
+		</div>
+	</section>
+
+	<section id="fh5co-testimonials" data-section="testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Testimonials</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3><!-- Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. --></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="box-testimony">
+						
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="box-testimony">
+						<blockquote class="to-animate-2">
+							<p>&ldquo;MindHack delivered on what was committed and within on aggressive schedule.MindHack provided all work and included instructions. Adjustments and modifications, within reason, were made after seeing results and They incorporated those modifications without issue. I am happy with the effort and work produced and will consider MindHack on future projects&rdquo;</p>
+						</blockquote>
+						<div class="author to-animate">
+							<figure><img src="images/person1.jpg" alt="Person"></figure>
+							<p>
+							-Brad Price <!-- <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>  --><span class="subtext">Client</span>
+							</p>
+						</div>
+					</div>
+				</div> 
+
+			<!--	<div class="col-md-4">
+					<div class="box-testimony">
+						<blockquote class="to-animate-2">
+							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;</p>
+						</blockquote>
+						<div class="author to-animate">
+							<figure><img src="images/person3.jpg" alt="Person"></figure>
+							<p>
+							Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>
+							</p>
+						</div>
+					</div>
+				</div> -->
+				
+				
+			</div>
+		</div>
+	</section>
+
+
+	<section id="fh5co-services" data-section="services">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-left">
+					<h2 class=" left-border to-animate">Services</h2>
+					<div class="row">
+						<div class="col-md-8 subtext to-animate">
+							<h3>Services done MindHack</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-cube"></i>
+					<h3>Custom Object recognition API</h3>
+					<p>About</p>
+				</div>
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-user"></i>
+					<h3>Facial recognition systems</h3>
+					<p>About</p>
+				</div>
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-info"></i>
+					<h3>Intelligent Optical Character Recognition</h3>
+					<p>About</p>
+				</div>
+			</div>
+			<!-- <div class="row">
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-anchor"></i>
+					<h3>Brand &amp; Strategy</h3>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
+				</div>
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-layers2"></i>
+					<h3>Web &amp; Interface</h3>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
+				</div>
+
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-video2"></i>
+					<h3>Photo &amp; Video</h3>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
+				</div>
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-monitor"></i>
+					<h3>CMS &amp; eCommerce</h3>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
+				</div>
+				
+			</div> -->
+		</div>
+	</section>
+	
+	<section id="fh5co-about" data-section="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">About</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>
+MindHack is a 5 membered startup, currently incubated at World's first Digital Incubation Centre which also happens to be India's best incubator. We are the only startup that got into the Batch 2 of sv.co from Kerala and one of the 5 startups from India in the same batch. </h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="profile/jibin.jpg" alt="Image"></figure>
+						<h3>Jibin K Mathew</h3>
+						<span class="fh5co-position">Marketing &amp; Engineering</span>
+						<p>Android,
+						D3.js,
+						JQuery</p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-github"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="profile/adam.jpg" alt="Image"></figure>
+						<h3>Adam Shamsudeen</h3>
+						<span class="fh5co-position">CEO</span>
+						<p>Django,
+						Flask,
+						ML/DL</p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-github"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="profile/jiss.jpg" alt="Image"></figure>
+						<h3>Jiss Raphel</h3>
+						<span class="fh5co-position">CTO</span>
+						<p>Django,
+						Angular,
+						Algorithms,
+						ML/DL</p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-github"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="profile/gou.jpg" alt="Image"></figure>
+						<h3>Goutham Krishna</h3>
+						<span class="fh5co-position">Front-end Developer</span>
+						<p></p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-github"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/ArunBharathan1.png" alt="Image"></figure>
+						<h3>Arun Bharathan</h3>
+						<span class="fh5co-position">UI/UX Designer</span>
+						<p>Photoshop, Illustrator, Angular, Type Script, HTML5, CSS3, JS</p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-github"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			<!-- 	<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/person3.jpg" alt="Image"></figure>
+						<h3>Larry Ben</h3>
+						<span class="fh5co-position">Web Designer</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</div>
+				</div> -->
+			</div>
+		</div>
+		</div>
+	</section>
+	
+	<section id="fh5co-counters" style="background-image: url(images/full_image_1.jpg);" data-stellar-background-ratio="0.5">
+		<div class="fh5co-overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center to-animate">
+					<h2>Fun Facts</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-briefcase to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="20" data-speed="5000" data-refresh-interval="50">20</span>
+						<span class="fh5co-counter-label">Finished projects</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-code to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="2343409" data-speed="5000" data-refresh-interval="50">2343409</span>
+						<span class="fh5co-counter-label">Line of codes</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-cup to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="1302" data-speed="5000" data-refresh-interval="50">1302</span>
+						<span class="fh5co-counter-label">Cup of coffees</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-people to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="11" data-speed="5000" data-refresh-interval="50">11</span>
+						<span class="fh5co-counter-label">Happy clients</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="fh5co-contact" data-section="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Get In Touch</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-md">
+				<div class="col-md-6 to-animate">
+					<h3>Contact Info</h3>
+					<ul class="fh5co-contact-info">
+						<li class="fh5co-contact-address ">
+							<i class="icon-home"></i>
+							MindHack Innovations  <br>
+						</li>
+						<li><i class="icon-phone"></i>9847-477-649 (Adam)</li>
+						<li><i class="icon-envelope"></i>info@mindhack.xyz</li>
+						<li><i class="icon-globe"></i> <a href="#" data-nav-section="home">mindhack.xyz</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-6 to-animate">
+					<h3>Contact Form</h3>
+					<div class="form-group ">
+						<label for="name" class="sr-only">Name</label>
+						<input id="name" class="form-control" placeholder="Name" type="text">
+					</div>
+					<div class="form-group ">
+						<label for="email" class="sr-only">Email</label>
+						<input id="email" class="form-control" placeholder="Email" type="email">
+					</div>
+					<div class="form-group ">
+						<label for="phone" class="sr-only">Phone</label>
+						<input id="phone" class="form-control" placeholder="Phone" type="text">
+					</div>
+					<div class="form-group ">
+						<label for="message" class="sr-only">Message</label>
+						<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+					</div>
+					<div class="form-group ">
+						<input class="btn btn-primary btn-lg" value="Send Message" type="submit">
+					</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div id="map" class="to-animate"></div>
+	</section>
+	
+	
+	<footer id="footer" role="contentinfo">
+		<a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
+		<div class="container">
+			<div class="">
+				<div class="col-md-12 text-center">
+					<br>
+					<p>&copy; MindHack 2017. All Rights Reserved. <!-- <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> --></p>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class="social social-circle">
+						<li><a href="#"><i class="icon-twitter"></i></a></li>
+						<li><a href="https://www.facebook.com/mindhack.co.in/"><i class="icon-facebook"></i></a></li>
+						<li><a href="https://www.linkedin.com/company-beta/13242486/"><i class="icon-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	
+	<!-- For demo purposes Only ( You may delete this anytime :-) -->
+	<!-- <div id="colour-variations">
+		<a class="option-toggle"><i class="icon-gear"></i></a>
+		<h3>Preset Colors</h3>
+		<ul>
+			<li>
+				<a href="javascript: void(0);" data-theme="style">
+					<span style="background: #3f95ea;"></span>
+					<span style="background: #52d3aa;"></span>
+					<span style="background: #f2f2f2;"></span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript: void(0);" data-theme="style2">
+					<span style="background: #329998;"></span>
+					<span style="background: #6cc99c;"></span>
+					<span style="background: #f2f2f2;"></span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript: void(0);" data-theme="style3">
+					<span style="background: #9f466e;"></span>
+					<span style="background: #c24d67;"></span>
+					<span style="background: #f2f2f2;"></span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript: void(0);" data-theme="style4">
+					<span style="background: #21825C;"></span>
+					<span style="background: #A4D792;"></span>
+					<span style="background: #f2f2f2;"></span>
+				</a>
+			</li>
+			
+		</ul>
+	</div> -->
+	<!-- End demo purposes only -->
+
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Counter -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+
+	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
+	<!-- <script src="js/jquery.style.switcher.js"></script>
+	<script>
+		$(function(){
+			$('#colour-variations ul').styleSwitcher({
+				defaultThemeId: 'theme-switch',
+				hasPreview: false,
+				cookie: {
+		          	expires: 30,
+		          	isManagingLoad: true
+		      	}
+			});	
+			$('.option-toggle').click(function() {
+				$('#colour-variations').toggleClass('sleep');
+			});
+		});
+	</script> -->
+	<!-- End demo purposes only -->
+
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
+
+	<!-- Modal -->
+<div id="techStack" class="modal fade box-testimony" role="dialog">
+  <div class="modal-dialog ">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title section-heading text-center">Tech Stack</h2>
+      </div>
+
+      <div class="modal-body">
+      <br>
+      
+      	
+      		<div class="row">
+      			<div class="col-lg-3 ">
+      				<img src="images/angular.png" class="img-responsive">
+      			</div> 
+      			<div class="col-lg-3 ">
+      				<img src="images/ts.png" class="img-responsive">
+      			</div> 
+      			<div class="col-lg-3 ">
+      				<img src="images/h5c3.png" class="img-responsive">
+      			</div> 
+      			<div class="col-lg-3 ">
+      				<img src="images/android.png" class="img-responsive">
+      			</div> 
+      		</div> 
+      		<br>
+      		<div class="row">
+      			<div class="col-lg-3 ">
+      				<img src="images/tf.png" class="img-responsive">
+      			</div> 
+      			<div class="col-lg-3 ">
+      				<img src="images/gcp.png" class="img-responsive">
+      			</div> 
+      			<div class="col-lg-3 ">
+      				<img src="images/django.png" class="img-responsive">
+      			</div> 
+      			<div class="col-lg-3 ">
+      				<img src="images/JQuery.png" class="img-responsive">
+      			</div> 
+      		</div>
+      		<br>
+      		<div class="row">
+      			<div class="col-lg-3 ">
+      				<img src="images/github.png" class="img-responsive">
+      			</div> 
+      			<div class="col-lg-3 ">
+      				<img src="images/flask.png" class="img-responsive">
+      			</div> 
+      			<div class="col-lg-3 ">
+      				<img src="images/python.png" class="img-responsive">
+      			</div> 
+      			<div class="col-lg-3 ">
+      				<img src="images/MySQL.png" class="img-responsive">
+      			</div> 
+      		</div>     		
+      	
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- journey -->
+<div id="journeymo" class="modal fade box-testimony" role="dialog">
+  <div class="modal-dialog ">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title section-heading text-center">Journey</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- holy grail -->
+
+<div id="holyGrail" class="modal fade box-testimony" role="dialog">
+  <div class="modal-dialog ">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title section-heading text-center">AWARDS</h4>
+      </div>
+      <div class="modal-body">
+      	<h4>*Innovation award by Model engineering college (iBeto)</h4>
+        <p></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+	</body>
+
+<script type="text/javascript">
+	var w = c.width = window.innerWidth,
+		h = c.height = window.innerHeight,
+		ctx = c.getContext( '2d' ),
+		
+		opts = {
+			
+			range: 280,
+			baseConnections: 3,
+			addedConnections: 5,
+			baseSize: 5,
+			minSize: 1,
+			dataToConnectionSize: .4,
+			sizeMultiplier: .7,
+			allowedDist: 40,
+			baseDist: 40,
+			addedDist: 30,
+			connectionAttempts: 100,
+			
+			dataToConnections: 1,
+			baseSpeed: .04,
+			addedSpeed: .05,
+			baseGlowSpeed: .4,
+			addedGlowSpeed: .4,
+			
+			rotVelX: .003,
+			rotVelY: .002,
+			
+			repaintColor: '#000',
+			connectionColor: 'hsla(200,60%,light%,alp)',
+			rootColor: 'hsla(0,60%,light%,alp)',
+			endColor: 'hsla(160,20%,light%,alp)',
+			dataColor: 'hsla(40,80%,light%,alp)',
+			
+			wireframeWidth: .1,
+			wireframeColor: '#88f',
+			
+			depth: 250,
+			focalLength: 250,
+			vanishPoint: {
+				x: w / 2,
+				y: h / 2
+			}
+		},
+		
+		squareRange = opts.range * opts.range,
+		squareAllowed = opts.allowedDist * opts.allowedDist,
+		mostDistant = opts.depth + opts.range,
+		sinX = sinY = 0,
+		cosX = cosY = 0,
+		
+		connections = [],
+		toDevelop = [],
+		data = [],
+		all = [],
+		tick = 0,
+		totalProb = 0,
+		
+		animating = false,
+		
+		Tau = Math.PI * 2;
+
+ctx.fillStyle = '#222';
+ctx.fillRect( 0, 0, w, h );
+ctx.fillStyle = '#ccc';
+ctx.font = '50px Verdana';
+ctx.fillText( 'Calculating Nodes', w / 2 - ctx.measureText( 'Calculating Nodes' ).width / 2, h / 2 - 15 );
+
+window.setTimeout( init, 4 ); // to render the loading screen
+
+function init(){
+	
+	connections.length = 0;
+	data.length = 0;
+	all.length = 0;
+	toDevelop.length = 0;
+	
+	var connection = new Connection( 0, 0, 0, opts.baseSize );
+	connection.step = Connection.rootStep;
+	connections.push( connection );
+	all.push( connection );
+	connection.link();
+	
+	while( toDevelop.length > 0 ){
+	
+		toDevelop[ 0 ].link();
+		toDevelop.shift();
+	}
+	
+	if( !animating ){
+		animating = true;
+		anim();
+	}
+}
+function Connection( x, y, z, size ){
+	
+	this.x = x;
+	this.y = y;
+	this.z = z;
+	this.size = size;
+	
+	this.screen = {};
+	
+	this.links = [];
+	this.probabilities = [];
+	this.isEnd = false;
+	
+	this.glowSpeed = opts.baseGlowSpeed + opts.addedGlowSpeed * Math.random();
+}
+Connection.prototype.link = function(){
+	
+	if( this.size < opts.minSize )
+		return this.isEnd = true;
+	
+	var links = [],
+			connectionsNum = opts.baseConnections + Math.random() * opts.addedConnections |0,
+			attempt = opts.connectionAttempts,
+			
+			alpha, beta, len,
+			cosA, sinA, cosB, sinB,
+			pos = {},
+			passedExisting, passedBuffered;
+	
+	while( links.length < connectionsNum && --attempt > 0 ){
+		
+		alpha = Math.random() * Math.PI;
+		beta = Math.random() * Tau;
+		len = opts.baseDist + opts.addedDist * Math.random();
+		
+		cosA = Math.cos( alpha );
+		sinA = Math.sin( alpha );
+		cosB = Math.cos( beta );
+		sinB = Math.sin( beta );
+		
+		pos.x = this.x + len * cosA * sinB;
+		pos.y = this.y + len * sinA * sinB;
+		pos.z = this.z + len *        cosB;
+		
+		if( pos.x*pos.x + pos.y*pos.y + pos.z*pos.z < squareRange ){
+		
+			passedExisting = true;
+			passedBuffered = true;
+			for( var i = 0; i < connections.length; ++i )
+				if( squareDist( pos, connections[ i ] ) < squareAllowed )
+					passedExisting = false;
+
+			if( passedExisting )
+				for( var i = 0; i < links.length; ++i )
+					if( squareDist( pos, links[ i ] ) < squareAllowed )
+						passedBuffered = false;
+
+			if( passedExisting && passedBuffered )
+				links.push( { x: pos.x, y: pos.y, z: pos.z } );
+			
+		}
+		
+	}
+	
+	if( links.length === 0 )
+		this.isEnd = true;
+	else {
+		for( var i = 0; i < links.length; ++i ){
+			
+			var pos = links[ i ],
+					connection = new Connection( pos.x, pos.y, pos.z, this.size * opts.sizeMultiplier );
+			
+			this.links[ i ] = connection;
+			all.push( connection );
+			connections.push( connection );
+		}
+		for( var i = 0; i < this.links.length; ++i )
+			toDevelop.push( this.links[ i ] );
+	}
+}
+Connection.prototype.step = function(){
+	
+	this.setScreen();
+	this.screen.color = ( this.isEnd ? opts.endColor : opts.connectionColor ).replace( 'light', 30 + ( ( tick * this.glowSpeed ) % 30 ) ).replace( 'alp', .2 + ( 1 - this.screen.z / mostDistant ) * .8 );
+	
+	for( var i = 0; i < this.links.length; ++i ){
+		ctx.moveTo( this.screen.x, this.screen.y );
+		ctx.lineTo( this.links[ i ].screen.x, this.links[ i ].screen.y );
+	}
+}
+Connection.rootStep = function(){
+	this.setScreen();
+	this.screen.color = opts.rootColor.replace( 'light', 30 + ( ( tick * this.glowSpeed ) % 30 ) ).replace( 'alp', ( 1 - this.screen.z / mostDistant ) * .8 );
+	
+	for( var i = 0; i < this.links.length; ++i ){
+		ctx.moveTo( this.screen.x, this.screen.y );
+		ctx.lineTo( this.links[ i ].screen.x, this.links[ i ].screen.y );
+	}
+}
+Connection.prototype.draw = function(){
+	ctx.fillStyle = this.screen.color;
+	ctx.beginPath();
+	ctx.arc( this.screen.x, this.screen.y, this.screen.scale * this.size, 0, Tau );
+	ctx.fill();
+}
+function Data( connection ){
+	
+	this.glowSpeed = opts.baseGlowSpeed + opts.addedGlowSpeed * Math.random();
+	this.speed = opts.baseSpeed + opts.addedSpeed * Math.random();
+	
+	this.screen = {};
+	
+	this.setConnection( connection );
+}
+Data.prototype.reset = function(){
+	
+	this.setConnection( connections[ 0 ] );
+	this.ended = 2;
+}
+Data.prototype.step = function(){
+	
+	this.proportion += this.speed;
+	
+	if( this.proportion < 1 ){
+		this.x = this.ox + this.dx * this.proportion;
+		this.y = this.oy + this.dy * this.proportion;
+		this.z = this.oz + this.dz * this.proportion;
+		this.size = ( this.os + this.ds * this.proportion ) * opts.dataToConnectionSize;
+	} else 
+		this.setConnection( this.nextConnection );
+	
+	this.screen.lastX = this.screen.x;
+	this.screen.lastY = this.screen.y;
+	this.setScreen();
+	this.screen.color = opts.dataColor.replace( 'light', 40 + ( ( tick * this.glowSpeed ) % 50 ) ).replace( 'alp', .2 + ( 1 - this.screen.z / mostDistant ) * .6 );
+	
+}
+Data.prototype.draw = function(){
+	
+	if( this.ended )
+		return --this.ended; // not sre why the thing lasts 2 frames, but it does
+	
+	ctx.beginPath();
+	ctx.strokeStyle = this.screen.color;
+	ctx.lineWidth = this.size * this.screen.scale;
+	ctx.moveTo( this.screen.lastX, this.screen.lastY );
+	ctx.lineTo( this.screen.x, this.screen.y );
+	ctx.stroke();
+}
+Data.prototype.setConnection = function( connection ){
+	
+	if( connection.isEnd )
+		this.reset();
+	
+	else {
+		
+		this.connection = connection;
+		this.nextConnection = connection.links[ connection.links.length * Math.random() |0 ];
+		
+		this.ox = connection.x; // original coordinates
+		this.oy = connection.y;
+		this.oz = connection.z;
+		this.os = connection.size; // base size
+		
+		this.nx = this.nextConnection.x; // new
+		this.ny = this.nextConnection.y;
+		this.nz = this.nextConnection.z;
+		this.ns = this.nextConnection.size;
+		
+		this.dx = this.nx - this.ox; // delta
+		this.dy = this.ny - this.oy;
+		this.dz = this.nz - this.oz;
+		this.ds = this.ns - this.os;
+		
+		this.proportion = 0;
+	}
+}
+Connection.prototype.setScreen = Data.prototype.setScreen = function(){
+	
+	var x = this.x,
+			y = this.y,
+			z = this.z;
+	
+	// apply rotation on X axis
+	var Y = y;
+	y = y * cosX - z * sinX;
+	z = z * cosX + Y * sinX;
+	
+	// rot on Y
+	var Z = z;
+	z = z * cosY - x * sinY;
+	x = x * cosY + Z * sinY;
+	
+	this.screen.z = z;
+	
+	// translate on Z
+	z += opts.depth;
+	
+	this.screen.scale = opts.focalLength / z;
+	this.screen.x = opts.vanishPoint.x + x * this.screen.scale;
+	this.screen.y = opts.vanishPoint.y + y * this.screen.scale;
+	
+}
+function squareDist( a, b ){
+	
+	var x = b.x - a.x,
+			y = b.y - a.y,
+			z = b.z - a.z;
+	
+	return x*x + y*y + z*z;
+}
+
+function anim(){
+	
+	window.requestAnimationFrame( anim );
+	
+	ctx.globalCompositeOperation = 'source-over';
+	ctx.fillStyle = opts.repaintColor;
+	ctx.fillRect( 0, 0, w, h );
+	
+	++tick;
+	
+	var rotX = tick * opts.rotVelX,
+			rotY = tick * opts.rotVelY;
+	
+	cosX = Math.cos( rotX );
+	sinX = Math.sin( rotX );
+	cosY = Math.cos( rotY );
+	sinY = Math.sin( rotY );
+	
+	if( data.length < connections.length * opts.dataToConnections ){
+		var datum = new Data( connections[ 0 ] );
+		data.push( datum );
+		all.push( datum );
+	}
+	
+	ctx.globalCompositeOperation = 'lighter';
+	ctx.beginPath();
+	ctx.lineWidth = opts.wireframeWidth;
+	ctx.strokeStyle = opts.wireframeColor;
+	all.map( function( item ){ item.step(); } );
+	ctx.stroke();
+	ctx.globalCompositeOperation = 'source-over';
+	all.sort( function( a, b ){ return b.screen.z - a.screen.z } );
+	all.map( function( item ){ item.draw(); } );
+	
+	/*ctx.beginPath();
+	ctx.strokeStyle = 'red';
+	ctx.arc( opts.vanishPoint.x, opts.vanishPoint.y, opts.range * opts.focalLength / opts.depth, 0, Tau );
+	ctx.stroke();*/
+}
+
+window.addEventListener( 'resize', function(){
+	
+	opts.vanishPoint.x = ( w = c.width = window.innerWidth ) / 2;
+	opts.vanishPoint.y = ( h = c.height = window.innerHeight ) / 2;
+	ctx.fillRect( 0, 0, w, h );
+});
+window.addEventListener( 'click', init );
+</script>
+</html>
+
