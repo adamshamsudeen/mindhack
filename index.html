@@ -42,6 +42,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	 <link href="https://fonts.googleapis.com/css?family=Audiowide|Monoton" rel="stylesheet">
 	
 	 <link href="https://fonts.googleapis.com/css?family=Timmana" rel="stylesheet">
 	 <link href="https://fonts.googleapis.com/css?family=Nova+Square" rel="stylesheet">  
@@ -79,7 +80,7 @@
 
 	<style>
 	.can{
-	position: center;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -198,7 +199,7 @@
 	<![endif]-->
 
 	</head>
-	<body>
+	<body><canvas class="can" id="c"></canvas>
 	<header role="banner" id="fh5co-header">
 			<div class="container">
 				<!-- <div class="row"> -->
@@ -223,16 +224,17 @@
 		  </div>
 	</header>
 
-	<section id="fh5co-home" data-section="home" style="background-image: url(images/bmg.jpg);" data-stellar-background-ratio="1.7">
+	<section id="fh5co-home" data-section="home" style="background-image: url(images/bmg.jpg);background-repeat: no-repeat;opacity: 0.4;" data-stellar-background-ratio="0.7">
+		
 
 		<div class="gradient"></div>
-		<div class="container">
+
+		<div class="container" >
 			
 			<div class="text-wrap">
 
 				<div class="text-inner">
-					<canvas class="can" id="c"></canvas>
-					<div class="row">
+						<div class="row">
 						<div class="col-md-8 col-md-offset-2">
 
 
@@ -241,7 +243,7 @@
 
 
 
-								<span style="font-size: 27px">MindHack</span> 
+								
 								 
 								
 
@@ -249,16 +251,19 @@
 
 							</h1>
 							<h2 class="to-animate"> </h2>
+							
 						</div>
 					</div>
 				</div>
+				
 			</div>
+
 		</div>
 		<div class="slant"></div>
 	</section>
 
 	<section id="fh5co-intro">
-		<div class="container">
+		<div id="get" class="container">
 			<div class="row row-bottom-padded-lg">
 				<div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);">
 					<div class="overlay-darker"></div>
@@ -269,7 +274,7 @@
 					<i class="fh5co-intro-icon icon-road"></i>
 						<h2>Journey</h2>
 						<p>A journey of a thousand miles begins with a single step.</p>
-						<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#journeymo">Get In Touch</a></p>
+						<p><a href="https://www.sv.co/startups/144/clubdin" class="btn btn-primary" >Get In Touch</a></p>
 					</div>
 				</div>
 				<div class="fh5co-block to-animate" style="background-image: url(images/img_8.jpg);">
@@ -287,7 +292,7 @@
 					<div class="overlay"></div>
 					<div class="fh5co-text">
 						<i class="fh5co-intro-icon icon-rocket"></i>
-						<h2>Holy Grail</h2>
+						<h2>Awards</h2>
 						<p>Awards won by MindHack Team</p>
 						<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#holyGrail">Why Us?</a></p>
 					</div>
@@ -315,32 +320,38 @@
 			</div>
 			<div class="row row-bottom-padded-sm">
 				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/sh.png" class="fh5co-project-item image-popup to-animate">
+						<img src="images/sh.png" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Data Sleek</h2>
+						<span>Scraping-Wiki</span>
+						</div>
+					</a>
+
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<!-- <a href="#vi" class="watch-video">
+						<img src="images/vision.png" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Vision.AI</h2>
+						<span>Photography</span>
+						</div> -->
+						<a href="" class="fh5co-project-item image-popup to-animate">
+						<iframe  width="360" height="260" src="https://www.youtube.com/embed/fpd6O1SXwFs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<!-- </a>-->
+						</a>
+				</div>
+				
+
+				<div class="clearfix visible-sm-block"></div>
+
+				
+				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a href="images/fosshack1.png" class="fh5co-project-item image-popup to-animate">
 						<img src="images/fosshack1.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>FOSSHACK</h2>
 						<span>Hackathon</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="images/buzz.png" class="fh5co-project-item image-popup to-animate">
-						<img src="images/buzz.png" alt="Image" class="img-responsive">
-						<div class="fh5co-text">
-						<h2>Buz Pe</h2>
-						<span>cashless tickets</span>
-						</div>
-					</a>
-				</div>
-
-				<div class="clearfix visible-sm-block"></div>
-
-				<div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="images/wiki.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="images/work_3.jpg" alt="Image" class="img-responsive">
-						<div class="fh5co-text">
-						<h2>Wiki Scrape</h2>
-						<span>Scraping-Wiki</span>
 						</div>
 					</a>
 				</div>
@@ -356,17 +367,9 @@
 				
 				<div class="clearfix visible-sm-block"></div>
 
+				
 				<div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="images/vision.png" class="fh5co-project-item image-popup to-animate">
-						<img src="images/vision.png" alt="Image" class="img-responsive">
-						<div class="fh5co-text">
-						<h2>Vision.AI</h2>
-						<span>Photography</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="images/work_6.jpg" class="fh5co-project-item image-popup to-animate">
+					<a href="images/clubbedin.png" class="fh5co-project-item image-popup to-animate">
 						<img src="images/clubbedin.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>Clubdin</h2>
@@ -376,7 +379,15 @@
 				</div>
 				
 				<div class="clearfix visible-sm-block"></div>
-
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/buzz.png" class="fh5co-project-item image-popup to-animate">
+						<img src="images/buzz.png" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Buz Pe</h2>
+						<span>cashless tickets</span>
+						</div>
+					</a>
+				</div>
 				<!-- <div class="col-md-4 col-sm-6 col-xxs-12">
 					<a href="images/work_7.jpg" class="fh5co-project-item image-popup to-animate">
 						<img src="images/work_7.jpg" alt="Image" class="img-responsive">
@@ -420,7 +431,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">Testimonials</h2>
+					<h2 class="to-animate" style="">Testimonials</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
 							<h3><!-- Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. --></h3>
@@ -441,8 +452,8 @@
 						</blockquote>
 						<div class="author to-animate">
 							<figure><img src="images/person1.jpg" alt="Person"></figure>
-							<p>
-							-Brad Price <!-- <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>  --><span class="subtext">Client</span>
+							<p style="color:#fff;">
+							-Brad Price <!-- <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>  --><span class="subtext" style="color:#fff;">Client</span>
 							</p>
 						</div>
 					</div>
@@ -480,23 +491,44 @@
 					</div>
 				</div>
 			</div>
+			<center>
 			<div class="row">
-				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+				<div class="col-md-6 col-sm-12 col-lg-4 fh5co-service to-animate">
 					<i class="icon to-animate-2 icon-cube"></i>
 					<h3>Custom Object recognition API</h3>
-					<p>About</p>
+					
 				</div>
-				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+				<div class="col-md-6 col-sm-12 col-lg-4 fh5co-service to-animate">
 					<i class="icon to-animate-2 icon-user"></i>
 					<h3>Facial recognition systems</h3>
-					<p>About</p>
+					
 				</div>
-				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+				<div class="col-md-6 col-sm-12 col-lg-4 fh5co-service to-animate">
 					<i class="icon to-animate-2 icon-info"></i>
 					<h3>Intelligent Optical Character Recognition</h3>
-					<p>About</p>
+					
 				</div>
 			</div>
+			<br>
+			<br>
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-lg-4 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-slideshare"></i>
+					<h3>Business intelligent chatbots</h3>
+					
+				</div>
+				<div class="col-md-6 col-sm-12 col-lg-4 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-mobile"></i>
+					<h3>Mobile App development</h3>
+					
+				</div>
+				<div class="col-md-6 col-sm-12 col-lg-4 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-html5"></i>
+					<h3>Web development</h3>
+					
+				</div>
+			</div>
+			</center>
 			<!-- <div class="row">
 				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
 					<i class="icon to-animate-2 icon-anchor"></i>
@@ -526,15 +558,15 @@
 		</div>
 	</section>
 	
-	<section id="fh5co-about" data-section="about">
+	<section id="fh5co-about" data-section="about" style="background-image: url(images/full_image_1.jpg);" data-stellar-background-ratio="0.5">
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
 					<h2 class="to-animate">About</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>
-MindHack is a 5 membered startup, currently incubated at World's first Digital Incubation Centre which also happens to be India's best incubator. We are the only startup that got into the Batch 2 of sv.co from Kerala and one of the 5 startups from India in the same batch. </h3>
+							<h3 style="color: #fff;text-align:justify;">MindHack is a 6 membered startup, currently virtually  incubated at sv.co and physically incubated at FederalLabz. We are the only startup that got into the Batch 2 of sv.co from Kerala. Currently we work on advanced technology domains such as machine learning and deep learning along with web and mobile application development</h3>
 						</div>
 					</div>
 				</div>
@@ -547,12 +579,14 @@ MindHack is a 5 membered startup, currently incubated at World's first Digital I
 						<span class="fh5co-position">Marketing &amp; Engineering</span>
 						<p>Android,
 						D3.js,
-						JQuery</p>
+						JQuery,<br>
+						JavaScript
+					</p>
 						<ul class="social social-circle">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							<li><a href="https://in.linkedin.com/in/jibin-k-mathew-314639121"><i class="icon-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/jibinkmatheww"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://github.com/jibinkmathew94"><i class="icon-github"></i></a></li>
+							<li><a href="https://in.linkedin.com/in/jibin-k-mathew-314639121"><i class="icon-linkedin"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -563,19 +597,19 @@ MindHack is a 5 membered startup, currently incubated at World's first Digital I
 						<span class="fh5co-position">CEO</span>
 						<p>Django,
 						Flask,
-						ML/DL</p>
+						ML/DL,AWS,Python</p>
 						<ul class="social social-circle">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://twitter.com/adamshamsudeen"><i class="icon-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/adamshamsudeen"><i class="icon-facebook"></i></a></li>
 							<li><a href="#"><i class="icon-github"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							<li><a href="https://www.facebook.com/adamshamsudeen"><i class="icon-linkedin"></i></a></li>
 
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="profile/jiss.jpg" alt="Image"></figure>
+						<figure><img src="profile/Jiss.png" alt="Image"></figure>
 						<h3>Jiss Raphel</h3>
 						<span class="fh5co-position">CTO</span>
 						<p>Django,
@@ -583,10 +617,10 @@ MindHack is a 5 membered startup, currently incubated at World's first Digital I
 						Algorithms,
 						ML/DL</p>
 						<ul class="social social-circle">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							<li><a href="https://twitter.com/Jisra7"><i class="icon-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/jissraphel"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://github.com/jissraphel"><i class="icon-github"></i></a></li>
+							<li><a href="https://in.linkedin.com/in/jiss-raphel-82100711b"><i class="icon-linkedin"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -602,10 +636,10 @@ MindHack is a 5 membered startup, currently incubated at World's first Digital I
 						<figure><img src="profile/gou.jpg" alt="Image"></figure>
 						<h3>Goutham Krishna</h3>
 						<span class="fh5co-position">Front-end Developer</span>
-						<p></p>
+						<p>Android,Python,PHP,<br>Web</p>
 						<ul class="social social-circle">
 							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://www.facebook.com/krishgoutham"><i class="icon-facebook"></i></a></li>
 							<li><a href="#"><i class="icon-github"></i></a></li>
 							<li><a href="#"><i class="icon-linkedin"></i></a></li>
 							
@@ -620,9 +654,26 @@ MindHack is a 5 membered startup, currently incubated at World's first Digital I
 						<p>Photoshop, Illustrator, Angular, Type Script, HTML5, CSS3, JS</p>
 						<ul class="social social-circle">
 							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+							<li><a href="https://www.facebook.com/arun.bharathan.90"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://github.com/ArunBharathan"><i class="icon-github"></i></a></li>
+							<li><a href="https://dribbble.com/Arun_Bharatathan"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="profile/sree.jpg" alt="Image"></figure>
+						<h3>Sreehari K V</h3>
+						<span class="fh5co-position">Front-end Developer</span>
+						<p>Django,ML,Android,Python,<br>
+							Vuejs
+						</p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/sreeharik.vijayan.1"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://github.com/sreehari1997"><i class="icon-github"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							
 						</ul>
 					</div>
 				</div>
@@ -647,6 +698,7 @@ MindHack is a 5 membered startup, currently incubated at World's first Digital I
 	<section id="fh5co-counters" style="background-image: url(images/full_image_1.jpg);" data-stellar-background-ratio="0.5">
 		<div class="fh5co-overlay"></div>
 		<div class="container">
+
 			<div class="row">
 				<div class="col-md-12 section-heading text-center to-animate">
 					<h2>Fun Facts</h2>
@@ -683,9 +735,10 @@ MindHack is a 5 membered startup, currently incubated at World's first Digital I
 				</div>
 			</div>
 		</div>
+		
 	</section>
 
-	<section id="fh5co-contact" data-section="contact">
+	<section id="fh5co-contact" data-section="contact" style="color: #fff;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
@@ -712,7 +765,7 @@ MindHack is a 5 membered startup, currently incubated at World's first Digital I
 				</div>
 
 				<div class="col-md-6 to-animate">
-					<h3>Contact Form</h3>
+					<h3 style="color: #fff;">Contact Form</h3>
 					<div class="form-group ">
 						<label for="name" class="sr-only">Name</label>
 						<input id="name" class="form-control" placeholder="Name" type="text">
@@ -747,7 +800,7 @@ MindHack is a 5 membered startup, currently incubated at World's first Digital I
 			<div class="">
 				<div class="col-md-12 text-center">
 					<br>
-					<p>&copy; MindHack 2017. All Rights Reserved. <!-- <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> --></p>
+					<p>&copy; MindHack 2018. All Rights Reserved. <!-- <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> --></p>
 					
 				</div>
 			</div>
@@ -819,7 +872,7 @@ MindHack is a 5 membered startup, currently incubated at World's first Digital I
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
 	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="https://maps.google.com/maps/api/js?key=AIzaSyCrfXMxsELO0zjNqbHL2S1SHssG5qIcwNY"></script>
 	<script src="js/google_map.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 
@@ -926,7 +979,7 @@ MindHack is a 5 membered startup, currently incubated at World's first Digital I
         <h4 class="modal-title section-heading text-center">Journey</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <p></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -948,7 +1001,10 @@ MindHack is a 5 membered startup, currently incubated at World's first Digital I
         <h4 class="modal-title section-heading text-center">AWARDS</h4>
       </div>
       <div class="modal-body">
-      	<h4>*Innovation award by Model engineering college (iBeto)</h4>
+      	<h4>* Won innovation award by Model engineering college (iBeto)</h4>
+      	<h4>* Won the innovation award at TKM college of engineering.</h4>
+      	<h4>* Won Digitalization hackathon at MA college of engineering</h4>
+      	<h4></h4>
         <p></p>
       </div>
       <div class="modal-footer">
