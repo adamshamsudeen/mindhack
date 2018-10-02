@@ -1,8 +1,10 @@
 # MindHack Website
 ![](https://github.com/sreehari1997/mindhack-website/blob/master/images/mindhack.png)
 
-Website: http://mindhack.xyz/
-Facebook: http://facebook.com/mindhack.co.in
+## Website 
+http://mindhack.xyz/
+## Facebook 
+http://facebook.com/mindhack.co.in
 
 
 # CREDITS
