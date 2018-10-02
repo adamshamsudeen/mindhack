@@ -1,13 +1,11 @@
-
-TITLE: 
-MindHack Website
+# MindHack Website
 
 
 Website: http://mindhack.xyz/
 Facebook: http://facebook.com/mindhack.co.in
 
 
-CREDITS:
+# CREDITS
 
 Bootstrap
 http://getbootstrap.com/
